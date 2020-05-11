@@ -1,0 +1,41 @@
+.btn-topbar{
+	background-color: #99FF00;
+	color: white;	
+}
+.btn-topbar:hover{
+	box-shadow: 1px 1px 1px grey;
+}
+.content{
+	margin-top: 50px;
+}
+.nb{
+	color: red;
+}
+.middle-box{
+	border-radius: 5px 5px 5px 5px;
+}
+.middle-box-text{
+	margin: 5%;
+}
+.xs-text{
+	font-size: 15px;
+}
+.sm-text{
+	font-size: 17px;
+}
+.md-text{
+	font-size: 19px;
+}
+.lg-text{
+	font-size: 21px;
+}
+.lg2-text{
+	font-size: 35px;
+}
+nav{
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	top: 2%;
+	background-color: white;
+}

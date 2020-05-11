@@ -1,0 +1,69 @@
+.middle-box{
+	height: 460px;
+	text-align: center;
+	background-color: #99FF00;
+}
+.middle-box img{
+	width: 100%;
+	height: 300px;
+}
+.bounce{
+	position: absolute;
+	top: 15%;
+	height: 40px;
+	width: 40px;
+	border-radius: 100% 100% 100% 100%;
+
+	-webkit-animation: bounce 0.8s alternate infinite;
+	animation: bounce 0.8s alternate infinite;
+}
+.msg{
+	text-align: center;
+	margin-top: 20%;
+	font-size: 25px;
+}
+.sub-msg{
+	margin: 4%;
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 20%;
+}
+.btn{
+	background-color: #99FF00;
+	color: white;
+}
+.log-msg{
+	position: absolute;
+	top: 20%;
+	left: 8%;
+	font-size: 30px;
+	text-align: center;
+}
+
+@-webkit-keyframes bounce{
+	0%{
+		background-color: #99FF00;
+		transform: translateY(-20px);
+	}
+	50%{
+		background-color: white;
+	}
+	100%{
+		background-color: #99FF00;
+		transform: translateY(150px);
+	}
+}
+@keyframes bounce{
+	0%{
+		background-color: #99FF00;
+		transform: translateY(-20px);
+	}
+	50%{
+		background-color: white;
+	}
+	100%{
+		background-color: #99FF00;
+		transform: translateY(150px);
+	}
+
+}
